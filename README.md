@@ -1,4 +1,4 @@
-# **Business Landing Page** [![demo](https://img.shields.io/badge/Project--8-Live-orange)](https://unique-griffin-6ae92b.netlify.app/)
+# **Interior Design Landing Page** [![demo](https://img.shields.io/badge/Project--10-Live-orange)](https://unique-griffin-6ae92b.netlify.app/)
 
 
 This is my 10th project of my fullstack journey using HTML and CSS.
