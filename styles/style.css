@@ -160,7 +160,150 @@ body{
 
 /* RESPONSIVE */
 
-@media screen and (max-width:900px) {
-  
+@media screen and (max-width:480px) {
+
+  .header__nav{
+    flex-direction: column;
+  }
+
+  .header__nav{
+    padding: 20px;
+  }
+
+  .header__logo {
+    margin-bottom: 10px;
+  }
+
+  .header__list{
+    flex-wrap: wrap;
+  }
+
+  .header__list ul{
+    flex-wrap: wrap;
+  }
+
+  .header__list ul li{
+    margin: 0 5px;
+  }
+
+  .header{
+    background-position: left;
+  }
+
+  .header__heading h1{
+    font-size: 1.5rem;
+  }
+
+  .header__button {
+    font-size: 13px;
+    padding: 10px 15px;
+  }
+
+  .header__top-right-container{
+    /* display: none; */
+    top: -2%;
+    width: 60%;
+  }
+
+  .header__bottom-right-container{
+    display: none;
+    left: 10%;
+    bottom: -3%;
+    width: 30%;
+  }
+}
+
+
+@media screen and (min-width:481px) and (max-width:767px) {
+
+  .header__nav{
+    flex-direction: column;
+  }
+
+  .header__nav{
+    padding: 20px;
+  }
+
+  .header__logo {
+    margin-bottom: 10px;
+  }
+
+  .header__list{
+    flex-wrap: wrap;
+  }
+
+  .header__list ul li{
+    margin: 0 5px;
+  }
+
+  .header{
+    background-position: left;
+  }
+
+  .header__heading h1{
+    font-size: 2rem;
+  }
+
+  .header__button {
+    font-size: 15px;
+    padding: 10px 20px;
+  }
+
+  .header__top-right-container{
+    width: 30%;
+  }
+
+  .header__bottom-right-container{
+    left: 10%;
+    bottom: -3%;
+    width: 30%;
+  }
+}
+
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+
+  .header__list ul li{
+    margin: 0 15px;
+  }
+
+  .header{
+    background-position: left;
+  }
+
+  .header__top-right-container{
+    width: 30%;
+  }
+
+  .header__bottom-right-container{
+    left: 10%;
+    bottom: -3%;
+    width: 30%;
+  }
+}
+
+@media (orientation: landscape) {
+
+  .header{
+    /* height: auto; */
+  }
+
+  .header__heading h1{
+    font-size: 2.5rem;
+  }
+
+  .header__button {
+    font-size: 20px;
+    padding: 15px 20px;
+  }
+
+  .header__top-right-container{
+    /* display: none; */
+  }
+
+  .header__bottom-right-container{
+    /* display: none; */
+  }
+
 }
 
